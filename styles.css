@@ -1,0 +1,167 @@
+
+body{
+    font-family: ;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.3rem;
+    line-height: 1.5;
+}
+
+
+/* Title Section  */
+
+.navbar-brand{
+    font-family: ;
+    font-size: 300%;
+}
+
+.row{
+    padding-top: 100px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+#title{
+    background-color: #ff4c68 ;
+    font-weight: bold;
+    color: white;
+
+}
+
+.download-button{
+    margin: 5px 3px 5px 0;
+}
+
+.title-image{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+/* features */
+h3{
+    font-family:'Montserrat', bold;
+    font-size: 2.5rem;
+    color: white;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative; /*use the positioning and the z-index to have an element on top of another*/
+    z-index: 1;
+}
+.feature-row{
+   text-align: center;  /* align the feature to be on the centre(responsive) */
+}
+.icons{
+    color: #ef8172;
+    margin: 0 50px 10px; /*center the icons*/
+}
+
+.icons:hover{
+    color:#ff4c68;
+}
+
+p{
+    color: #8F8F8F;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-family: 'montserrat', bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-button:hover{
+    color: rgb(117, 108, 108);
+}
+
+/* title and features section stacking*/
+.positioning{
+    position: absolute;
+}
+
+/*create a responsive website using media query*/
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding: 10% 30%;
+}
+
+.bottom-button{
+    margin: 50px 20px 5px 0;
+}
+
+/* footer section */
+
+#footer{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.footer-icon{
+    padding: 3px 4px;
+}
